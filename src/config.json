@@ -1,0 +1,59 @@
+{
+    "_comment": "填写需要运行的配置名",
+    "use_api_id": ["it_test"],
+    "tradingday": "20180122",
+    "_comment1": "前置:交易|行情",
+    "front_test": "tcp://180.168.146.187:10001|tcp://180.168.146.187:10011",
+    "front_real": "",
+    "broker_test": "9999",
+    "broker_real": "4040",
+    "trade_info": {
+        "it_test": {
+            "is_test": true,
+            "user": "085506",
+            "pwd": "123456",
+            "comment1": "发送的项目",
+            "comment2": "记录id,以便下次继续查询.收盘后置0",
+            "query_id": {
+                "trade_id": 0,
+                "position_id": 0,
+                "deposit_id": 0
+            }
+        },
+        "yin_tian_xia_test": {
+            "is_test": true,
+            "user": "fksh001",
+            "pwd": "fk170928",
+            "comment1": "发送的项目",
+            "send_items": {
+                "account": false,
+                "position": true,
+                "deposit": true,
+                "trade": true
+            },
+            "comment2": "记录id,以便下次继续查询.收盘后置0",
+            "query_id": {
+                "trade_id": 0,
+                "position_id": 0,
+                "deposit_id": 0
+            }
+        },
+        "guo_fu_tou_zi": {
+            "is_test": false,
+            "user": "fkywtz2a002",
+            "pwd": "fk171226",
+            "send_items": {
+                "account": false,
+                "position": true,
+                "deposit": true,
+                "trade": true
+            },
+            "comment": "记录id,以便下次继续查询.收盘后置0",
+            "query_id": {
+                "trade_id": 119983,
+                "position_id": 1188689,
+                "deposit_id": 0
+            }
+        }
+    }
+}
