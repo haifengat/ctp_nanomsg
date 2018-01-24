@@ -12,4 +12,4 @@ package ctp api with nanomsg
         * add line /usr/local/lib64
         * sudo ldconfig
 ## thread
-    * add param -lpthread to compile
+    * add param -std=c++11 -lpthread to compile
